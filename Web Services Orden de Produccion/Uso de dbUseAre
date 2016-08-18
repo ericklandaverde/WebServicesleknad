@@ -1,0 +1,21 @@
+dbUseArea(<expressão lógica 1>, <expressão caracter 1>, <expressão caracter 2>, <expressão caracter 3>, <expressão lógica 2>, <expressão lógica 3>)
+ 
+Propósito
+ Define um arquivo de dados como uma área de trabalho disponível na aplicação.
+ 
+Argumentos
+<expressão lógica 1>
+ Argumento opcional que permite que o alias especificado, caso já esteja em uso, seja fechado antes da abertura do arquivo de dados.
+<expressão caracter 1>
+ Define o driver que permita à aplicação manipular o arquivo de dados especificado. O Protheus possui a variável __LOCALDRIVER definida a partir das configurações do arquivo .ini pertencente ao server do Protheus.
+ 
+Algumas chaves válidas são: “DBFCDX”, “CTREECDX”, “DBFCDXAX” e “TOPCONN”.
+ 
+<expressão caracter 2>
+ Nome do arquivo de dados que será aberto com o alias especificado.
+<expressão caracter 3>
+ Alias para referência do arquivo de dados pela aplicação.
+<expressão lógica 2>
+ Define se o arquivo poderá ser utilizado por outras conexões.
+<expressão lógica 3>
+ Define se o arquivo será aberto como somente leitura.
